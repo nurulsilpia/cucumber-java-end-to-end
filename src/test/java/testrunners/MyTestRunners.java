@@ -9,6 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = {"src/test/resources/AppFeatures"},
         glue = {"stepdefinitions", "AppHooks"},
+        //tags = "@AccountPage",
         plugin = {"pretty"},
         publish = true
 
